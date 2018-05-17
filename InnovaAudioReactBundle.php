@@ -10,7 +10,7 @@
 namespace Innova\AudioReactBundle;
 use Claroline\CoreBundle\Library\DistributionPluginBundle;
 use Claroline\KernelBundle\Bundle\ConfigurationBuilder;
-class ClarolineAudioReactBundle extends DistributionPluginBundle
+class InnovaAudioReactBundle extends DistributionPluginBundle
 {
     public function getConfiguration($environment)
     {
