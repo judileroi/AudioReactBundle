@@ -1,0 +1,14 @@
+{
+  "webpack": {
+    "entry": {
+      "administrate": "administrate/app",
+      "player": "player/app"
+    }
+  },
+
+  "styles": {
+    "entry": {
+      "subtitles": "video/subtitles.less"
+    }
+  }
+}

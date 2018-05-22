@@ -1,5 +1,11 @@
 plugin:
-    # Set this to "true" if your plugin must have an entry in the plugin configuration page.
-    has_options: 'true'
-    # You can set an icon for your plugin. The icon must be in your public/images/icons folder.
-    icon: 'icon.png'
+  has_options: false
+  icon: res_audio_react.png
+
+  resources:
+    - class: Innova\AudioReactBundle\Entity\MediaResource
+      name: innova_audio_react
+      is_exportable: false
+      actions:
+        - name: administrate
+          menu_name: innova_audio_react_administrate
